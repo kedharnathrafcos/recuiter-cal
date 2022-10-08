@@ -51,7 +51,7 @@ function App() {
     parseInt((formik.values.NumberofPeople*12) || 400) +
     parseInt(formik.values.ClientBillRateHr || 1) * 64 +
     parseInt(formik.values.OneTimeChargersVISA || 0) +
-    parseInt(formik.values.Relocation || 0);
+    parseInt(formik.values.Relocation || 0)+parseInt(formik.values.EmployeePTO || 0);
   let x2 = parseInt(formik.values.ClientBillRateHr) * 2000;
   let prePopulate = {
     ClientBillRateAnnum: formik.values.ClientBillRateHr * 2000,
