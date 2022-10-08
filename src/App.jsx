@@ -48,7 +48,7 @@ function App() {
   let x1 =
     parseInt(formik.values.EmployeeSalaryAnnum || 1) +
     (parseInt(formik.values.EmployeeSalaryAnnum || 1) * 11) / 100 +
-    parseInt(formik.values.NumberofPeople || 400) +
+    parseInt((formik.values.NumberofPeople*12) || 400) +
     parseInt(formik.values.ClientBillRateHr || 1) * 64 +
     parseInt(formik.values.OneTimeChargersVISA || 0) +
     parseInt(formik.values.Relocation || 0);
