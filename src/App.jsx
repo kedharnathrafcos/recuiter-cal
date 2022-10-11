@@ -177,10 +177,10 @@ function App() {
                       value={formik.values.NumberofPeople}
                     >
                       <option value="0">select one</option>
-                      <option value="400">Employee Only</option>
-                      <option value="800">Employee + Spouse</option>
-                      <option value="1200">Employee + 2 Dependents</option>
-                      <option value="1400">Employee + 3 Dependents</option>
+                      <option value="400">Employee Only ($4800)</option>
+                      <option value="800">Employee + Spouse ($9600)</option>
+                      <option value="1200">Employee + 2 Dependents ($14400)</option>
+                      <option value="1400">Employee + 3 Dependents ($19200)</option>
                     </Form.Select>
                   </Col>
                 </Row>
